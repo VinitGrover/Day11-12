@@ -44,7 +44,7 @@ class StockPortfolio {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number of Stock you want to add");
         int noOfStock = sc.nextInt();
-        for (int i = 0; i < noOfStock; i++) {
+        for (int i = 0; i < noOfStock; i++)  {
             addStock();
         }
     }
